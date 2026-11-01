@@ -84,7 +84,7 @@ COUNTRY_ZH = {
 EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
-        "1EDGE_HOSTS",
+        "EDGE_HOSTS",
         
         "104.19.42.159:2053,104.17.215.36:2083",
     ).split(",")
